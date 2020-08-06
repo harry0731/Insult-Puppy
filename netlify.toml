@@ -1,5 +1,5 @@
 [[redirects]]
-  from = "/evilinsult/*"
+  from = "https://insult-puppy.netlify.app/evilinsult/*"
   to = "https://evilinsult.com"
   status = 200
   force = true
