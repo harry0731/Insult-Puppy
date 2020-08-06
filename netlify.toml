@@ -1,12 +1,12 @@
 # The following redirect is intended for use with most SPAs that handle
 # routing internally.
 [[redirects]]
-  from = "/evilinsult"
-  to = "https://evilinsult.com"
+  from = "/*"
+  to = "/index.html"
   status = 200
 
 [[headers]]
   # Define which paths this specific [[headers]] block will cover.
-  for = "/evilinsult"
+  for = "/*"
     [headers.values]
     Access-Control-Allow-Origin = "*"
