@@ -22,8 +22,8 @@ export default {
   methods: {
     refresh: function () {
       instance
-        // .get(process.env.VUE_APP_INSULT+"/generate_insult.php?lang=en&type=json")
-        .get("/evilinsult/generate_insult.php?lang=en&type=json")
+        .get(process.env.VUE_APP_INSULT+"/generate_insult.php?lang=en&type=json")
+        // .get("/evilinsult/generate_insult.php?lang=en&type=json")
         .then(
           response => (this.sentence = response.data.insult)
         )
