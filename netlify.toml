@@ -1,5 +1,8 @@
-# The following redirect is intended for use with most SPAs that handle
-# routing internally.
+[build]
+  command = "yarn build"
+  functions = "lambda"
+  publish = "dist"
+
 [[redirects]]
   from = "/*"
   to = "/index.html"
