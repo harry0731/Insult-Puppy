@@ -2,6 +2,7 @@
   command = "yarn build"
   functions = "lambda"
   publish = "dist"
+true
 
 [[redirects]]
   from = "/*"
