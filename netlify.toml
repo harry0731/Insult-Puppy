@@ -1,16 +1,5 @@
-[build]
-  command = "yarn build"
-  functions = "lambda"
-  publish = "dist"
-true
-
 [[redirects]]
-  from = "/*"
-  to = "/index.html"
+  from = "/evilinsult"
+  to = "https://evilinsult.com"
   status = 200
-
-[[headers]]
-  # Define which paths this specific [[headers]] block will cover.
-  for = "/*"
-    [headers.values]
-    Access-Control-Allow-Origin = "*"
+  force = true
