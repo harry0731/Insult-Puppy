@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/evilinsult/*"
+  to = "https://evilinsult.com"
+  status = 200
+  force = true
